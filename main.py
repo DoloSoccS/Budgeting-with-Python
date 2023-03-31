@@ -2,7 +2,8 @@
 #Pay schedule frequency will be necessary to allocate funds
 #End result will be amount to leave in account for bills, amount to transfer for savings/debts, and the remaining balance for miscellaneous
 
-
+#Add Class to hold dynamic inputs for EXPENSES and INCOME separately
+#That will allow input for expense catergories to hold
 class newBudget:
     def __init__(self, utilities, housing, autoLoan, insurances, studentLoans, debts, income):
         self.utilities = utilities
